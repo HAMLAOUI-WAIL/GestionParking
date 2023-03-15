@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="640.0" maxWidth="890.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="890.0" style="-fx-border-color: #6aa6ff; -fx-background-color: #ffffff; -fx-background-radius: 30; -fx-border-width: 5; -fx-border-radius: 30;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_project.Reserve">
+   <children>
+      <ImageView fitHeight="449.0" fitWidth="445.0" layoutX="61.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/City%20girl-rafiki.png" />
+         </image>
+      </ImageView>
+      <Circle layoutX="82.0" layoutY="65.0" radius="27.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="82.0" layoutY="565.0" radius="27.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="144.0" layoutY="51.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="117.0" layoutY="122.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="115.0" layoutY="498.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="149.0" layoutY="573.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="842.0" layoutY="586.0" radius="27.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="822.0" layoutY="520.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="774.0" layoutY="590.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="835.0" layoutY="52.0" radius="27.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="769.0" layoutY="55.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="828.0" layoutY="116.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Pane layoutX="414.0" layoutY="172.0" prefHeight="402.0" prefWidth="445.0">
+         <children>
+            <TextField fx:id="NbRegester" alignment="CENTER" layoutX="100.0" layoutY="39.0" prefHeight="51.0" prefWidth="276.0" promptText="Registration number" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </TextField>
+            <Line endX="138.0" layoutX="258.0" layoutY="82.0" startX="-179.0" startY="-1.52587890625E-5" />
+            <TextField fx:id="NbFloor" alignment="CENTER" layoutX="132.0" layoutY="126.0" prefHeight="51.0" prefWidth="197.0" promptText="Floor number" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="NbPlace" alignment="CENTER" layoutX="133.0" layoutY="216.0" prefHeight="51.0" prefWidth="197.0" promptText="Place number" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </TextField>
+            <Line endX="138.0" layoutX="259.0" layoutY="170.0" startX="-179.0" startY="-1.52587890625E-5" />
+            <Line endX="138.0" layoutX="258.0" layoutY="259.0" startX="-179.0" startY="-1.52587890625E-5" />
+            <Button fx:id="reserve" alignment="CENTER" layoutX="93.0" layoutY="357.0" mnemonicParsing="false" onAction="#getRegestrationNumber" prefHeight="61.0" prefWidth="145.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 40; -fx-background-radius: 40;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Reserve a place" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <effect>
+                  <DropShadow height="34.63" radius="12.435" width="17.11">
+                     <color>
+                        <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="AlertMessage" alignment="CENTER" layoutX="135.0" layoutY="278.0" prefHeight="17.0" prefWidth="207.0" textFill="RED" />
+         </children>
+      </Pane>
+      <Button alignment="CENTER" layoutX="270.0" layoutY="529.0" mnemonicParsing="false" onAction="#ValidateRegistration" prefHeight="61.0" prefWidth="145.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 40; -fx-background-radius: 40;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="validate" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="343.0" layoutY="44.0" text="reservation" textFill="#5570b3">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

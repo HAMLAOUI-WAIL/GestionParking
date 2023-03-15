@@ -1,0 +1,54 @@
+.btn-btn {
+    -fx-text-fill: #FFF;
+}
+.btn-btn:hover {
+    -fx-cursor: hand;
+    -fx-border-color:  #6aa6ff;
+    -fx-border-width: 3px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #FFF;
+    -fx-text-fill:  #FFF;
+    -fx-font-weight: bold;
+}
+.btn-btn:pressed {
+   -fx-font-size: 13px;
+}
+.btn-btn1 {
+    -fx-text-fill: #FFF;
+}
+.btn-btn1:hover {
+    -fx-cursor: hand;
+    -fx-border-color:  #6aa6ff;
+    -fx-border-width: 3px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #FFF;
+    -fx-text-fill:  #FFF;
+    -fx-font-weight: bold
+}
+.btn-btn1:pressed {
+    -fx-font-size: 13px;
+    -fx-border-color:  #cae1ff;
+
+}
+.btn-btn1:selected {
+    -fx-font-size: 13px;
+    -fx-border-color:  #cae1ff;
+
+}
+.data0.chart-pie {
+    -fx-pie-color: #6aa6ff; 
+}
+.data1.chart-pie {
+    -fx-pie-color:  #cae1ff; 
+}
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.chart-bar {
+    -fx-background-color: #6aa6ff;
+}
+ 
+.data0.chart-bar {
+    -fx-background-color: #6aa6ff;
+}

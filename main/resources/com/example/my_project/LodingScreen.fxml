@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_project.Controller3">
+   <children>
+      <ImageView fitHeight="553.0" fitWidth="566.0" layoutX="-2.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@23692-progress-bar-in-dodger-blue.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image" fitHeight="303.0" fitWidth="321.0" layoutX="127.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@57463-parking-concept.gif" />
+         </image>
+      </ImageView>
+      <Circle layoutX="-50.0" layoutY="94.0" radius="86.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="606.0" layoutY="221.0" radius="93.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="435.0" layoutY="272.0" radius="51.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="89.0" layoutY="50.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Label layoutX="152.0" layoutY="15.0" text="Parking Management">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Circle layoutX="496.0" layoutY="55.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="481.0" layoutY="109.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="439.0" layoutY="53.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="67.0" layoutY="282.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="127.0" layoutY="285.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="84.0" layoutY="222.0" radius="10.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.33016627078384797" startY="0.7458432304038005">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.11999999731779099" green="0.5746666789054871" blue="1.0" opacity="0.10234541445970535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+   </children>
+</AnchorPane>

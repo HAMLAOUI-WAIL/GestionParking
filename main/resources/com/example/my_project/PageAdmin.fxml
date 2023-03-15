@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="1113.0" style="-fx-background-color: transparent; -fx-border-color: #6aa6ff; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_project.Controller2">
+   <children>
+      <ImageView fitHeight="587.0" fitWidth="587.0" layoutX="358.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Admin-amico.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="CancelButton" layoutX="1065.0" layoutY="8.0" mnemonicParsing="false" onAction="#Cancel" style="-fx-background-color: transparent;" text="X" textFill="#6aa6ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="AccountSetting" alignment="CENTER" layoutX="24.0" layoutY="253.0" mnemonicParsing="false" onAction="#SettingPage" prefHeight="51.0" prefWidth="191.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Accont Settings" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="45.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_account_circle_white_36dp.png" />
+         </image>
+      </ImageView>
+      <BorderPane fx:id="LodingPlace" layoutX="224.0" layoutY="42.0" maxHeight="660.0" maxWidth="870.0" prefHeight="623.0" prefWidth="870.0" />
+      <Button fx:id="Statistics" alignment="CENTER" layoutX="24.0" layoutY="442.0" mnemonicParsing="false" onAction="#StatisticsPage" prefHeight="51.0" prefWidth="191.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Statistics" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="ManageUsers" alignment="CENTER" layoutX="24.0" layoutY="380.0" mnemonicParsing="false" onAction="#ManageUsers" prefHeight="51.0" prefWidth="191.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Manage Users" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="AddUser" alignment="CENTER" layoutX="24.0" layoutY="317.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="51.0" prefWidth="191.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Add User" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Circle layoutX="14.0" layoutY="21.0" radius="126.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="454.0" layoutY="777.0" radius="109.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="1137.0" layoutY="736.0" radius="109.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="887.0" layoutY="-58.0" radius="109.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="176.0" layoutY="68.0" radius="29.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="161.0" layoutY="667.0" radius="29.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="41.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_analytics_white_36dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="41.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_manage_accounts_white_36dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="41.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_person_add_white_36dp.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="SignOut" alignment="CENTER" layoutX="75.0" layoutY="513.0" mnemonicParsing="false" onAction="#Signout" prefHeight="82.0" prefWidth="83.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 50; -fx-background-radius: 50;" styleClass="btn-btn1" stylesheets="@Css/Button.css" text="Sign out" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="Pane" layoutX="433.0" layoutY="252.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="401.0" style="-fx-border-color: #6aa6ff; -fx-border-width: 5; -fx-background-color: #ffffff;" visible="false">
+         <children>
+            <Label alignment="CENTER" layoutX="91.0" layoutY="15.0" text="do you want to sign out ?" textFill="#5570b3">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="Yes" alignment="CENTER" layoutX="89.0" layoutY="164.0" mnemonicParsing="false" onAction="#Yes" prefHeight="43.0" prefWidth="98.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn" stylesheets="@Css/Button.css" text="Yes" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <effect>
+                  <DropShadow height="34.63" radius="12.435" width="17.11">
+                     <color>
+                        <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="221.0" layoutY="164.0" mnemonicParsing="false" onAction="#No" prefHeight="43.0" prefWidth="98.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" styleClass="btn-btn" stylesheets="@Css/Button.css" text="No" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <effect>
+                  <DropShadow height="34.63" radius="12.435" width="17.11">
+                     <color>
+                        <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="144.0" fitWidth="147.0" layoutX="134.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Bye-amico.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="UserNameText" alignment="CENTER" layoutX="41.0" layoutY="218.0" prefHeight="28.0" prefWidth="161.0" textFill="#5570b3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="98.0" fitWidth="98.0" layoutX="72.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Profile.png" />
+         </image>
+      </ImageView>
+      <Circle layoutX="3.0" layoutY="705.0" radius="72.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+   </children>
+</AnchorPane>

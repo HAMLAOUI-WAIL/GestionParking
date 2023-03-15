@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="825.0" style="-fx-border-color: #6aa6ff; -fx-border-width: 5; -fx-border-radius: 30; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.my_project.AccountSettingUser">
+   <children>
+      <ImageView fitHeight="409.0" fitWidth="419.0" layoutX="412.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Grid design-amico.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Name" layoutX="95.0" layoutY="128.0" onKeyTyped="#Alert" prefHeight="39.0" prefWidth="267.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button alignment="CENTER" layoutX="168.0" layoutY="430.0" mnemonicParsing="false" onAction="#UpdateUser" prefHeight="51.0" prefWidth="131.0" style="-fx-background-color: #6aa6ff; -fx-border-color: #cae1ff; -fx-border-radius: 30; -fx-background-radius: 30;" text="Save changes" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+         <effect>
+            <DropShadow height="34.63" radius="12.435" width="17.11">
+               <color>
+                  <Color red="0.1913580298423767" green="0.6630658507347107" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Line endX="230.66665649414062" endY="0.3333282470703125" layoutX="169.0" layoutY="162.0" startX="-100.3333511352539" startY="0.3333282470703125" />
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="67.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_drive_file_rename_outline_black_36dp.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="FullName" layoutX="95.0" layoutY="189.0" onKeyTyped="#Alert1" prefHeight="39.0" prefWidth="249.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Line endX="230.66665649414062" endY="0.3333282470703125" layoutX="169.0" layoutY="223.0" startX="-100.3333511352539" startY="0.3333282470703125" />
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="66.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_drive_file_rename_outline_black_36dp.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="EmailAdress" layoutX="93.0" layoutY="244.0" onKeyTyped="#Alert2" prefHeight="39.0" prefWidth="237.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Line endX="230.66665649414062" endY="0.3333282470703125" layoutX="169.0" layoutY="278.0" startX="-100.3333511352539" startY="0.3333282470703125" />
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="65.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_email_black_36dp.png" />
+         </image>
+      </ImageView>
+      <Line endX="230.66665649414062" endY="0.3333282470703125" layoutX="169.0" layoutY="337.0" startX="-100.3333511352539" startY="0.3333282470703125" />
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="65.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_call_black_36dp.png" />
+         </image>
+      </ImageView>
+      <Circle layoutX="517.0" layoutY="505.0" radius="52.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="760.0" layoutY="47.0" radius="33.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="759.0" layoutY="469.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="478.0" layoutY="62.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.47268408551068886" startX="0.28978622327790976" startY="0.5605700712589073">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23038499057292938" green="0.4974333941936493" blue="0.8026315569877625" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.29100000858306885" green="0.6984000205993652" blue="0.9700000286102295" opacity="0.42004263401031494" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Label layoutX="365.0" layoutY="143.0" text="Name" />
+      <Label layoutX="346.0" layoutY="204.0" text="Full name" />
+      <Label layoutX="331.0" layoutY="261.0" text="Email adress" />
+      <Label layoutX="318.0" layoutY="319.0" text="Phone number" />
+      <Line endX="230.66665649414062" endY="0.3333282470703125" layoutX="169.0" layoutY="388.0" startX="-100.3333511352539" startY="0.3333282470703125" />
+      <ImageView fitHeight="31.0" fitWidth="42.0" layoutX="65.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon/outline_password_black_36dp.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="345.0" layoutY="370.0" text="Password" />
+      <TextField fx:id="PhoneNumber" layoutX="93.0" layoutY="303.0" onKeyTyped="#Alert3" prefHeight="39.0" prefWidth="225.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PasswordText" layoutX="96.0" layoutY="354.0" prefHeight="39.0" prefWidth="249.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Password" layoutX="96.0" layoutY="354.0" prefHeight="39.0" prefWidth="249.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="NotVisible" layoutX="359.0" layoutY="392.0" mnemonicParsing="false" onAction="#PasswordNotVisible" style="-fx-background-color: transparent;" visible="false">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="31.0" onDragDetected="#PasswordVisible" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/outline_visibility_off_black_36dp.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Visible" layoutX="359.0" layoutY="392.0" mnemonicParsing="false" onAction="#PasswordVisible" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icon/outline_visibility_black_36dp.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="AlertMessage" alignment="CENTER" layoutX="120.0" layoutY="399.0" prefHeight="17.0" prefWidth="219.0" textFill="RED" />
+   </children>
+</AnchorPane>
